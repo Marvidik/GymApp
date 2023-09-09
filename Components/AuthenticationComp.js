@@ -22,7 +22,7 @@ export default function AuthenticationComp({source,source2,text1,text2,color1,co
         <Text style={styles.text}>{text1}</Text>
         <Text style={styles.text}>{text2}</Text>
       </View>
-      <View style={styles.mask} />  
+      
     </View>
   )
 }
@@ -30,8 +30,8 @@ export default function AuthenticationComp({source,source2,text1,text2,color1,co
 
 const styles = StyleSheet.create({
     container:{
-        width:375,
-        height:463,
+        width:"100",
+        height:400,
     },
     image:{
         width:"100%",
