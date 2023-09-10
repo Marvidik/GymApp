@@ -2,8 +2,8 @@ import { View, Text,StyleSheet,TouchableOpacity } from 'react-native'
 import React from 'react'
 import {MaterialCommunityIcons} from "@expo/vector-icons"
 
-export default function ButtonComp({style,icon,text}) {
-    const allstyle=[styles.button,style]
+export default function ButtonComp({style,icon,text,w}) {
+    const allstyle=[styles.button,style,{width:w}]
   return (
     <TouchableOpacity>
         <View style={allstyle}>
@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     },
     text:{
         fontSize:20,
+        paddingRight:10
         
     }
 })

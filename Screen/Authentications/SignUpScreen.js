@@ -5,22 +5,23 @@ import AnimatedTextInput from '../../Components/TextInputComp'
 import IconComp from '../../Components/IconComp'
 import ButtonComp from '../../Components/ButtonComp'
 
-export default function SignInScreen() {
+export default function SignUpScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.box1}>
-        <AuthenticationComp source={require("../../assets/auth1.png")} source2={require("../../assets/59.png")} text1={"Welcome Back"} text2={"Sarrah"} color1={"#DBFF33"} color2="white"/>
+        <AuthenticationComp source={require("../../assets/auth2.png")}  text1={"Hello Rookies,"}  color1={"white"} color2="#DBFF33"/>
       </View>
       <View style={styles.box2}>
         <AnimatedTextInput/>
         <AnimatedTextInput/>
-        <Text style={styles.text}>Forgotten password</Text>
+        <AnimatedTextInput/>
+
         <View style={styles.box3}>
           <View style={styles.box4}>
           <IconComp source={require("../../assets/Apple.png")}/>
           <IconComp source={require("../../assets/Google.png")}/>
           </View>
-          <ButtonComp text={"Log In"} icon={"arrow-right"} style={styles.button} />
+          <ButtonComp text={"Sign Up"} icon={"arrow-right"} style={styles.button} />
         </View>
       </View>
     </View>
@@ -44,11 +45,11 @@ const styles = StyleSheet.create({
      
   },
   box3:{
-    height:200,
+    height:150,
     flexDirection:"row",
     alignSelf:"flex-start",
     position:"relative",
-    top:110
+    top:60
     
     
   },
