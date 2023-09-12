@@ -45,7 +45,7 @@ export default function HomeScreen() {
         },
       ]
 
-    const [beginnerBack, setBeginnerBack] = useState('gray');
+    const [beginnerBack, setBeginnerBack] = useState('#DBFF33');
     const [intermediateBack, setIntermediateBack] = useState('gray');
     const [advancedBack, setAdvancedBack] = useState('gray');
   

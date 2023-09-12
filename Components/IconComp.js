@@ -2,9 +2,9 @@ import { View, Text,StyleSheet,Image } from 'react-native'
 import React from 'react'
 import {MaterialCommunityIcons} from "@expo/vector-icons"
 
-export default function IconComp({source}) {
+export default function IconComp({source,style}) {
   return (
-    <View style={styles.icon}>
+    <View style={[styles.icon,style]}>
       <Image style={styles.image} source={source}/>
     </View>
   )
