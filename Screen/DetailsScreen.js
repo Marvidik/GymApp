@@ -13,6 +13,7 @@ export default function DetailsScreen() {
         <Text style={styles.text2}>Day 01- Warm Up</Text>
         </View>
         <IconComp style={styles.icon} source={require("../assets//Circle Left.png")}/>
+        <View></View>
       
     </View>
   )
