@@ -9,10 +9,10 @@ export default function DetailsScreen() {
         <Image style={styles.image} source={require("../assets//third.png")}/>
         </View>
         <View style={styles.box2}>
-        <Text style={styles.text1}>Day 01- Warm Up</Text>
-        <Text style={styles.text2}>Day 01- Warm Up</Text>
+        <Text style={styles.text1}>Day  01  -   Warm Up</Text>
+        <Text style={styles.text2}>D4 Workout for beginers</Text>
         </View>
-        <IconComp style={styles.icon} source={require("../assets//Circle Left.png")}/>
+        <IconComp style={styles.icon} source={require("../assets//next.png")}/>
         <View></View>
       
     </View>
@@ -43,10 +43,10 @@ const styles = StyleSheet.create({
     fontSize:20
   },
   text2:{
-    color:"white",
+    color:"#DBFF33",
     paddingLeft:30,
-    paddingTop:20,
-    fontSize:20
+    paddingTop:5,
+    fontSize:15
 
   }
         
